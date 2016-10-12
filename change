@@ -1,0 +1,35 @@
+Python 2.7.8 (default, Jun 30 2014, 16:03:49) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+**********************************************************************
+File "P:\PortableGit\3200k\dicts.py", line 5, in __main__.hist
+Failed example:
+    hist("AAGGT")
+Exception raised:
+    Traceback (most recent call last):
+      File "C:\Python27\ArcGIS10.3\lib\doctest.py", line 1315, in __run
+        compileflags, 1) in test.globs
+      File "<doctest __main__.hist[0]>", line 1, in <module>
+        hist("AAGGT")
+      File "P:\PortableGit\3200k\dicts.py", line 15, in hist
+        results [symbols]= 1
+    NameError: global name 'symbols' is not defined
+**********************************************************************
+File "P:\PortableGit\3200k\dicts.py", line 8, in __main__.hist
+Failed example:
+    hist("!!xx")
+Exception raised:
+    Traceback (most recent call last):
+      File "C:\Python27\ArcGIS10.3\lib\doctest.py", line 1315, in __run
+        compileflags, 1) in test.globs
+      File "<doctest __main__.hist[1]>", line 1, in <module>
+        hist("!!xx")
+      File "P:\PortableGit\3200k\dicts.py", line 15, in hist
+        results [symbols]= 1
+    NameError: global name 'symbols' is not defined
+**********************************************************************
+1 items had failures:
+   2 of   2 in __main__.hist
+***Test Failed*** 2 failures.
+>>> 
